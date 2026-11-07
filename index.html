@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artesano · Estúdio de objetos</title>
+  <meta name="description" content="Estúdio de objetos em barro, madeira e vidro. Edições curtas, vendidas por catálogo impresso.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Jost:wght@300;400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero" id="inicio">
+    <img class="hero__foto" src="img/hero-atelie.jpg" alt="Artesão moldando uma peça de barro no torno, dentro do ateliê">
+    <div class="hero__veu" aria-hidden="true"></div>
+
+    <div class="hero__conteudo">
+      <h1 class="hero__titulo">Artesano</h1>
+      <p class="hero__palavras">
+        <span>Matéria</span>
+        <span class="hero__barra" aria-hidden="true">|</span>
+        <span>Luz</span>
+        <span class="hero__barra" aria-hidden="true">|</span>
+        <span>Espaço</span>
+      </p>
+      <p class="hero__edicao">Estúdio de objetos | Edição de inverno</p>
+      <p class="hero__ano">— 2026 —</p>
+    </div>
+  </header>
+  <nav class="menu" aria-label="Navegação principal">
+    <ul class="menu__lista">
+      <li><a class="menu__link" href="#inicio">Início</a></li>
+      <li><a class="menu__link" href="#estudio">Estúdio</a></li>
+      <li><a class="menu__link" href="#colecoes">Coleções</a></li>
+      <li class="menu__item-marca">
+        <a class="menu__marca" href="#inicio" aria-label="Artesano, voltar ao topo">A</a>
+      </li>
+      <li><a class="menu__link" href="#galeria">Galeria</a></li>
+      <li><a class="menu__link" href="#depoimento">Depoimento</a></li>
+      <li><a class="menu__link" href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+  <section class="secao estudio" id="estudio">
+      <div class="estudio__manifesto">
+        <h2 class="titulo-secao">Fazemos objetos que duram mais que nós.</h2>
+        <p class="texto">Um estúdio pequeno em uma rua sem saída: barro, madeira e vidro trabalhados devagar, em edições curtas. Cada peça sai numerada, assinada e com o nome de quem a fez no verso.</p>
+      </div>
+
+      <ul class="etapas">
+        <li class="etapa">
+          <img class="etapa__icone" src="img/icone-materia.svg" alt="">
+          <span class="etapa__nome">Matéria</span>
+        </li>
+        <li class="etapa">
+          <img class="etapa__icone" src="img/icone-desenho.svg" alt="">
+          <span class="etapa__nome">Desenho</span>
+        </li>
+        <li class="etapa">
+          <img class="etapa__icone" src="img/icone-forma.svg" alt="">
+          <span class="etapa__nome">Fôrma</span>
+        </li>
+        <li class="etapa">
+          <img class="etapa__icone" src="img/icone-entrega.svg" alt="">
+          <span class="etapa__nome">Entrega</span>
+        </li>
+      </ul>
+    </section>
+    <section class="secao colecoes" id="colecoes">
+      <div class="colecoes__conteudo">
+        <h2 class="titulo-secao">Quatro coleções, uma por estação</h2>
+
+        <div class="tabela-rolagem" role="region" aria-label="Edições abertas" tabindex="0">
+          <table class="tabela">
+            <caption>Edições abertas</caption>
+            <thead>
+              <tr>
+                <th scope="col">Coleção</th>
+                <th scope="col">Peça</th>
+                <th scope="col">Edição</th>
+                <th scope="col">Prazo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Névoa</td><td>Vaso baixo</td><td>40 un.</td><td>3 semanas</td></tr>
+              <tr><td>Névoa</td><td>Prato fundo</td><td>60 un.</td><td>3 semanas</td></tr>
+              <tr><td>Sal</td><td>Luminária de mesa</td><td>25 un.</td><td>5 semanas</td></tr>
+              <tr><td>Sal</td><td>Espelho oval</td><td>18 un.</td><td>6 semanas</td></tr>
+              <tr><td>Ferro</td><td>Banco de canto</td><td>12 un.</td><td>8 semanas</td></tr>
+              <tr><td>Ferro</td><td>Cabideiro alto</td><td>20 un.</td><td>7 semanas</td></tr>
+              <tr><td>Vento</td><td>Móbile de vidro</td><td>30 un.</td><td>4 semanas</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="colecoes__notas">
+          <p>Abrimos as encomendas quatro vezes por ano e fechamos quando a edição acaba. Nada é refeito depois: o molde é quebrado e a coleção seguinte começa do papel em branco.</p>
+          <p>Os prazos acima contam a partir da confirmação. O frete é combinado peça a peça, porque nenhuma delas viaja igual.</p>
+        </div>
+
+        <a class="botao botao--contorno" href="#contato">Pedir o catálogo</a>
+      </div>
+    </section>
+    <section class="secao depoimento" id="depoimento">
+      <h2 class="visualmente-oculto">Depoimento</h2>
+      <figure class="depoimento__figura">
+        <blockquote class="depoimento__citacao">
+          <p>“Comprei uma peça pensando em decorar uma prateleira. Ela virou a coisa que eu pego todos os dias, e é a única da casa que eu saberia descrever de olhos fechados.”</p>
+        </blockquote>
+        <figcaption class="depoimento__assinatura">— Marina Álvares, coleção Névoa</figcaption>
+      </figure>
+    </section>
+    <section class="secao galeria" id="galeria">
+      <h2 class="titulo-secao">Peças recentes</h2>
+
+      <ul class="galeria__lista">
+        <li class="peca">
+          <figure>
+            <img class="peca__foto" src="img/peca-tigela.jpg" alt="Tigela funda de grês claro, vista de lado sobre um pano branco">
+            <figcaption class="peca__legenda">
+              <span class="peca__nome">Tigela funda</span>
+              <span class="peca__material">Névoa · grês</span>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="peca">
+          <figure>
+            <img class="peca__foto" src="img/peca-assento.jpg" alt="Assentos de madeira de três pés expostos lado a lado sobre um tablado branco">
+            <figcaption class="peca__legenda">
+              <span class="peca__nome">Assento de três pés</span>
+              <span class="peca__material">Ferro · madeira</span>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="peca">
+          <figure>
+            <img class="peca__foto" src="img/peca-secagem.jpg" alt="Tigelas de barro cru secando em prateleiras de madeira no ateliê">
+            <figcaption class="peca__legenda">
+              <span class="peca__nome">Tigelas em secagem</span>
+              <span class="peca__material">Névoa · ateliê</span>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+     <section class="secao contato" id="contato">
+      <div class="contato__conteudo">
+        <h2 class="titulo-secao">Peça o catálogo</h2>
+        <p class="texto">A edição de inverno abre em 14 de setembro. Deixe seu contato e enviamos o catálogo impresso, com as medidas e os preços de cada peça.</p>
+
+        <form class="formulario" action="#" method="post">
+          <div class="formulario__linha">
+            <div class="campo">
+              <label class="rotulo" for="nome">Nome</label>
+              <input class="campo__entrada" type="text" id="nome" name="nome" placeholder="Seu nome completo" autocomplete="name" required>
+            </div>
+            <div class="campo">
+              <label class="rotulo" for="email">E-mail</label>
+              <input class="campo__entrada" type="email" id="email" name="email" placeholder="voce@exemplo.com" autocomplete="email" required>
+            </div>
+          </div>
+
+          <fieldset class="opcoes">
+            <legend class="rotulo">O que te interessa</legend>
+            <div class="opcoes__lista">
+              <label class="opcao">
+                <input type="radio" name="interesse" value="catalogo" checked>
+                Só o catálogo
+              </label>
+              <label class="opcao">
+                <input type="radio" name="interesse" value="peca">
+                Uma peça específica
+              </label>
+              <label class="opcao">
+                <input type="radio" name="interesse" value="encomenda">
+                Encomenda sob medida
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="campo">
+            <label class="rotulo" for="recado">Recado (opcional)</label>
+            <textarea class="campo__entrada" id="recado" name="recado" rows="4" placeholder="Uma frase basta"></textarea>
+          </div>
+
+          <div class="formulario__envio">
+            <button class="botao botao--principal" type="submit">Enviar pedido</button>
+            <p class="formulario__aviso">Escrevemos de volta em até dois dias úteis.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="rodape">
+    <p class="rodape__marca">Artesano</p>
+    <p>Estúdio de objetos · desde 2019</p>
+    <a class="rodape__topo" href="#inicio">Voltar ao topo</a>
+  </footer>
+</body>
+</html>
